@@ -1,0 +1,110 @@
+/* CARD CATEGORY */
+
+.card-category {
+  display: flex;
+  background-size: cover;
+  height: 200px;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  text-shadow: 2px 2px 13px #000000;
+  box-shadow: 0px 0px 20px rgba(0,0,0,.3);
+  margin: 20px 0px;
+}
+
+/* CARD PRODUCT */
+
+.card-product {
+  display: flex;
+  background-size: cover;
+  align-items: center;
+  box-shadow: 0px 0px 20px rgba(0,0,0,.3);
+  margin: 20px 0px;
+}
+
+.card-product .card-product-info {
+  padding-left: 20px;
+}
+
+.card-product .card-product-info h3 {
+  margin: 0px 0px 7px 0px;
+}
+
+.card-product .card-product-info p {
+  margin: 0px;
+  color: rgb(80, 80, 80);
+}
+
+/* CARD TRIP */
+
+.card-trip {
+  background-size: cover;
+  align-items: center;
+  box-shadow: 0px 0px 20px rgba(0,0,0,.3);
+  margin: 20px 0px;
+}
+
+.card-trip-banner {
+  height: 200px;
+  width: 100%;
+}
+
+.card-trip-bottom {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 20px 30px;
+}
+
+.card-trip-bottom-info h3, .card-trip-bottom-info p, .card-trip-bottom-price {
+  margin: 0px;
+}
+
+.card-trip-bottom-price {
+  font-weight: bolder;
+}
+
+.card-trip-bottom-avatar {
+  position: absolute;
+  border: 3px solid #ffffff;
+  top: -25px;
+  right: 20px;
+}
+
+
+.card-features {
+  display: flex;
+  margin: 20px 0px;
+  justify-content: space-between;
+  align-items: center
+}
+
+.card-features-item {
+  border: 1px solid rgb(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  width: 200px;
+  /*background-color: rgb(0,0,0,.03);*/
+  box-shadow: 0px 0px 15px rgb(118, 212, 110, 0.3)
+}
+
+.card-features-item img {
+  width: 55px;
+}
+
+/* Responsive */
+
+@media(max-width: 750px) {
+  .card-features {
+    flex-direction: column;
+  }
+
+  .card-features-item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+

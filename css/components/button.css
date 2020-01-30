@@ -1,0 +1,61 @@
+/* Your button CSS file */
+
+.btn-medium {
+  color: #999;
+  border: 1px solid #999;
+  padding: 13px 30px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.7;
+  transition: opacity 0.1s ease-in-out;
+}
+
+.btn-medium:hover {
+  opacity: 1;
+}
+
+.btn-treehouse {
+  background-color: #6AD58B;
+  color: #ffffff;
+  padding: 13px 30px;
+  border-radius: 5px;
+  font-weight: bolder;
+  opacity: 0.7;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.btn-treehouse:hover {
+  opacity: 1;
+}
+
+.btn-yours {
+  color: #EF8354;
+  padding: 10px 30px;
+  border: 2px solid #EF8354;
+  border-radius: 2px;
+  font-weight: bolder;
+  opacity: 0.7;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.btn-yours:hover {
+  opacity: 1;
+}
+
+.btn-alien {
+  background-color: #76D46E;
+  color: #ffffff;
+  padding: 13px 30px;
+  border-radius: 5px;
+  font-weight: bolder;
+  border: 2px solid transparent;
+  transition: background-color 0.4s ease-in-out;
+}
+
+.btn-alien:hover {
+  background-color: rgb(118, 212, 110, 0.6);
+  border: 2px solid #76D46E;
+  transition: background-color 0.4s ease-in-out;
+}
+
+
